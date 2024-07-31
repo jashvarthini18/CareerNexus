@@ -1,0 +1,42 @@
+.right-sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background: #ffffff;
+    border-left: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .friend-suggestions, .profile-activity, .upcoming-events {
+    margin-bottom: 20px;
+  }
+  
+  .friend-suggestions h3, .profile-activity h3, .upcoming-events h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #a55cff;
+  }
+  
+  .friend-suggestions ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friend-suggestions ul li {
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .friend-suggestions ul li:hover {
+    background-color: #a55cff;
+    color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .profile-activity, .upcoming-events {
+    color: #888;
+  }
+  
