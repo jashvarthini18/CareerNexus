@@ -76,7 +76,7 @@ const Signup = () => {
                     <button
                         type="submit"
                         disabled={isSigningUp}
-                        className={submit-button ${isSigningUp ? 'disabled' : ''}}
+                        className={`submit-button ${isSigningUp ? 'disabled' : ''}`}
                     >
                         {isSigningUp ? 'Signing Up...' : 'Sign Up'}
                     </button>
