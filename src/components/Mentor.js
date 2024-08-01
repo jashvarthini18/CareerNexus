@@ -1,5 +1,5 @@
 import React from 'react';
-import './Mentor.css';
+import './styles/Mentor.css';
 
 const Mentor = ({ mentor }) => {
   return (

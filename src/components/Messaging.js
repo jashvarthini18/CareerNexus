@@ -1,7 +1,7 @@
 // src/components/Messaging.js
 
 import React from 'react';
-import './Messaging.css';
+import './styles/Messaging.css';
 
 const Messaging = ({ message }) => {
   return (

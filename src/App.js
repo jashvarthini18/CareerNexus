@@ -1,18 +1,18 @@
+// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
-import MainContent from './components/MainContent';
 import RightSidebar from './components/RightSidebar';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-
+import Home from './pages/Home';
 import Mentors from './pages/Mentors';
 import Discussions from './pages/Discussions';
 import Messages from './pages/Messages';
 import Bookings from './pages/Bookings';
 
-import AuthProvider from './context/AuthContext';
+import { AuthProvider } from './context/AuthContext';
 import './App.css';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
           <div className="app-body">
             <Sidebar />
             <Routes>
-              <Route path="/" element={<MainContent />} />
+              <Route path="/" element={<Home />} />
               <Route path="/mentors" element={<Mentors />} />
               <Route path="/discussions" element={<Discussions />} />
               <Route path="/messages" element={<Messages />} />

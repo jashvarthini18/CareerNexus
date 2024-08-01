@@ -1,13 +1,10 @@
-// src/pages/Messages.js
-
 import React, { useState } from 'react';
 import Messaging from '../components/Messaging';
-import './Messages.css';
+import './styles/Messages.css';
 
 const initialMessages = [
   { id: 1, user: 'John Doe', message: 'Hi, I can help you with your career!' },
   { id: 2, user: 'Jane Smith', message: 'Let’s discuss your project.' },
-  // More messages...
 ];
 
 const Messages = () => {
@@ -18,7 +15,7 @@ const Messages = () => {
     if (newMessage.trim() !== '') {
       const newMessageObject = {
         id: messages.length + 1,
-        user: 'Current User', // Replace with the actual user's name
+        user: 'Current User',
         message: newMessage,
       };
       setMessages([...messages, newMessageObject]);

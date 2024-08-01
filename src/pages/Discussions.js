@@ -1,6 +1,6 @@
 import React from 'react';
 import Discussion from '../components/Discussion';
-import './Discussions.css';
+import './styles/Discussions.css';
 
 const discussions = [
   { id: 1, topic: 'Career Advice', posts: 23 },

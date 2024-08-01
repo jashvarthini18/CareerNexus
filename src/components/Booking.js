@@ -1,5 +1,5 @@
 import React from 'react';
-import './Booking.css';
+import './styles/Booking.css';
 
 const Booking = ({ booking }) => {
   return (

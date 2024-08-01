@@ -1,5 +1,5 @@
 import React from 'react';
-import './Discussion.css';
+import './styles/Discussion.css';
 
 const Discussion = ({ discussion }) => {
   return (

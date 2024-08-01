@@ -1,6 +1,6 @@
 import React from 'react';
 import Mentor from '../components/Mentor';
-import './Mentors.css';
+import './styles/Mentors.css';
 
 const mentors = [
   { id: 1, name: 'John Doe', industry: 'Software Engineering', location: 'San Francisco, CA', availability: 'Available' },
